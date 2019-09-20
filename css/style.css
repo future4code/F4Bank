@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:    
 }
 
 .container{
@@ -11,17 +12,26 @@ html, body {
 }
 
 header{
-    background-color: chartreuse;
+    background-color: #ff914d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 0px;
+}
+
+header img {
+    width: 20vw;
+    height: auto;
 }
 
 .quem-somos {
+    background-image: url("/imagens/banco_bg.jpg");
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: rebeccapurple;
 }
 
 .quero-ser { 
@@ -29,7 +39,7 @@ header{
     text-align: center;
     width: 100vw;
     bottom: 0;    
-    background-color: aqua;
+    background-color: #ff914d;
 }
 
 .quero-ser h2{
