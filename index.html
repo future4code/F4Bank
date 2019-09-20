@@ -1,12 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>F4 Bank</title>
 </head>
 <body>
+<!-- cabeçalho do site, com logo e menu -->    
+   
+        <div class="mobile-container">
+
+                <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+        </div>
+        <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+        </script>
+            
+           
+<!-- seção de produtos -->
+    <section class="produto">
+        <div class="imagem">
+            <img src="" alt="">
+        </div>
+        <div class="descricao-produto">
+            <div id="square"></div>
+            <p>Conheça nosso novo cartão sem taxas!</p>
+        </div>
+    </section>
+<!-- rodapé com redes sociais -->
+    <footer>
+        <a href="http://www.facebook.com" class="redes-sociais">
+            <img src="imagens/facebook_logo.png" alt="">
+        </a>
+        <a href="http://www.twitter.com" class="redes-sociais">
+            <img src="imagens/twitter_logo.png" alt="">
+        </a>
+        <a href="http://www.instagram.com" class="redes-sociais">
+            <img src="imagens/instagram_logo.png" alt="">
+        </a>        
+    </footer>
     
 </body>
 </html>
