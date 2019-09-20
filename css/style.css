@@ -56,7 +56,7 @@ header img {
 }
   
 .quem-somos {
-    background-image: url("/imagens/banco_bg.jpg");
+    background-image: url("imagens/banco_bg.jpg");
     flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 1;
