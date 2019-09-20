@@ -3,3 +3,45 @@ html, body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: chartreuse;
+}
+
+.quem-somos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+}
+
+.quero-ser { 
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    bottom: 0;    
+    background-color: aqua;
+}
+
+.quero-ser h2{
+    text-align: center;
+}
+
+/* Só a disposição dos links+ícones no footer  */
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5px;
+    background-color: brown;
+}
