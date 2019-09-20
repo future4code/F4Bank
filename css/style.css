@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:    
 }
 
 .container{
@@ -22,8 +23,6 @@ header img {
     width: 20vw;
     height: auto;
 }
-
-
 
 .quem-somos {
     background-image: url("/imagens/banco_bg.jpg");
