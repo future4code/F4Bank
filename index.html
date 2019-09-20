@@ -18,17 +18,29 @@
             <aside class="logo">
                 <a href="index.html"><img src="imagens/logo_menu.jpg" alt="Home"></a>
             </aside>
+            <!-- itens do menu -->
             <nav>
-                <!-- itens do menu -->
-                <ul>
-                    <li>Início</li>
-                    <li>Cartão</li>
-                    <li>Conta</li>
-                    <li>Redes Sociais</li>
-                </ul>
+              <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
             </nav>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         </header>
-    <!-- seção de apresentação do banco -->
+        <script>
+           function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+    </script>
+    <!-- seção de produtos -->
         <section class="quem-somos">                        
             <h1>F4 Bank</h1>
             <h2>O F4 Bank agrega tradição, segurança e tecnologia para oferecer os 
