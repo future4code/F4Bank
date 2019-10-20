@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo img{ 
+    width: 40px;
+    height: 40px;
+}
+
+.topnav {
+    overflow: hidden;
+    background: white;
+    position: relative;
+   
+}
+  
+.topnav #links-items {
+    display: none;
+}
+  
+.topnav a {
+    color: rgba(51, 51, 51, 0.755);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+ 
+.topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+#links-items a:hover {
+    background-color: #ff914dcb;
+    color:white;
+}
+  
+.quem-somos {
+    background: #ff914dcb url(../imagens/banco_bg.jpg) no-repeat right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    min-height: 100vh;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    text-justify: auto;
+}
+.quero-ser { 
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    bottom: 0;    
+    background-color: #ff914d;
+}
+
+.quero-ser h2 {
+    /* text-align: center; */
+}
+
+.quero-ser a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Só a disposição dos links+ícones no footer  */
+footer {
+    width: 100vw;
+    min-height: 20vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    background-color: white;
+}
+
+footer img {
+    height: 30px;
+}
+
+#cadastro {
+    min-height: 100vh;
+}
+
+#cadastro form{
+    display: grid;
+    align-items: center;
+    max-width: 60vw;
+    min-height: 50vh;
+    padding: 20px;
+    color: rgba(51, 51, 51, 0.755);
+}
+
+#submit-form {
+    max-width: 30vh;
+    padding: 10px;
+    background: #ff914d; 
+    border-style: none;
+    color: white;
+    border-radius: 3px;
+}    

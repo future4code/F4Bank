@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>F4 Bank</title>
+</head>
+<body>
+<!-- cabeçalho do site, com logo e menu -->
+    <section class="quero-ser">
+       <a href="cadastro.html"> <h2>Quero ser um Astrobank!</h2></a></button>
+    </section>
+    <div class="container">
+        <header>
+            <!-- itens do menu -->
+            <nav>
+              <div class="topnav">
+                <a href="index.html" class="logo"><img src="imagens/logo_F4_Bank_laranja.png" alt="logo"></a>
+                <div id="links-items">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            </nav>
+        </header>
+        <script>
+           function myFunction() {
+              var x = document.getElementById("links-items");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+    </script>
+    <!-- Sessão com conteúdo do primeiro produto sendo a imagem aparecendo primeiro e o texto explicativo em seguida -->
+    <section>
+        <div id="cadastro">
+            <form>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label>E-mail</label>
+                <input type="text" name="email" id="email">
+                <label>Telefone</label>
+                <input type="number" name="telefone" id="telefone">
+                <button type="submit" id="submit-form">Enviar</button>
+            </form>
+        </div>
+    </section> 
+    <!-- Rodapé contendo as tres imagens das midias sociais  -->
+    <footer>
+        <a href="http://www.facebook.com" class="redes-sociais">
+            <img src="imagens/facebook_logo.png" alt="">
+        </a>
+        <a href="http://www.twitter.com" class="redes-sociais">
+            <img src="imagens/twitter_logo.png" alt="">
+        </a>
+        <a href="http://www.instagram.com" class="redes-sociais">
+            <img src="imagens/instagram_logo.png" alt="">
+        </a>        
+    </footer>
+</body>
+</html>
