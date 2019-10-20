@@ -10,8 +10,14 @@
 </head>
 <body>
 <!-- cabeçalho do site, com logo e menu -->
+
+    <script>
+        function bemVindo(){
+            alert("Bem vindo!");
+        }
+    </script>
     <section class="quero-ser">
-        <h2>Quero ser Astro Bank!</h2>
+        <button type="submit" onclick="bemVindo()">Quero ser um Astro Bank!</button>
     </section>
     <div class="container">
         <header>
@@ -30,24 +36,12 @@
             </nav>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         </header>
-        <script>
-           function myFunction() {
-              var x = document.getElementById("myLinks");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
-            }
-    </script>
-    <!-- seção de produtos -->
-        <section class="quem-somos">                        
+    <!-- seção de apresentação do banco -->
+        <section class="quem-somos">
             <h1>F4 Bank</h1>
             <h2>O F4 Bank agrega tradição, segurança e tecnologia para oferecer os 
                 melhores produtos digitais e cuidar do seu patrimônio. </h2>
             <h3>Seja um Astro Bank você também!</h3>
-                
-            
         </section>
     <!-- rodapé com redes sociais -->        
         <footer>
